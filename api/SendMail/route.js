@@ -19,8 +19,6 @@ const transporter = nodemailer.createTransport({
 // Middleware
 app.use(express.json());
 
-// Routes
-
 app.get("/", (req, res) => {
   res.send("<h1>¡Hola, mundo!</h1>");
 });
